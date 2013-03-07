@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS `emails` (
   `EmailAddress` varchar(250) NOT NULL,
   `Key` varchar(16) NOT NULL,
   PRIMARY KEY (`Id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=876 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 
 -- --------------------------------------------------------
 
@@ -43,7 +43,7 @@ CREATE TABLE IF NOT EXISTS `entries` (
   `Finished` tinyint(3) unsigned NOT NULL,
   `DiskUsage` bigint(20) NOT NULL,
   PRIMARY KEY (`Id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1038 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 
 -- --------------------------------------------------------
 
@@ -57,4 +57,4 @@ CREATE TABLE IF NOT EXISTS `servers` (
   `Busy` tinyint(3) unsigned NOT NULL,
   `Current` int(10) unsigned NOT NULL,
   PRIMARY KEY (`Id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=17 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
